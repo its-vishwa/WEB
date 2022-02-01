@@ -39,9 +39,9 @@ button[class="navbar-toggler"] {
 }
 #s1-name {
   font-family: "Dancing Script", cursive;
-  color: #00b5ac;
+  color: #ff2600;
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 #s1-down-icon {
   color: white;
@@ -59,8 +59,8 @@ button[class="navbar-toggler"] {
   text-shadow: 0;
   width: 13px;
   height: 13px;
-  border-bottom: 2px solid #00b5ac;
-  border-right: 2px solid #00b5ac;
+  border-bottom: 2px solid #ff2600;
+  border-right: 2px solid #ff2600;
   z-index: 9;
   left: 50%;
   -webkit-transform: translate(-50%, 0%) rotate(45deg);
@@ -326,16 +326,17 @@ footer {
   /* s2 */
   .inst-name,
   .inst-title {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
   }
   .inst-period {
-    font-size: 0.4rem;
+    font-size: 0.75rem;
   }
   .inst-logos {
     width: 50px;
     height: 50px;
   }
   #s2-title {
+    font-size: 1rem;
     padding-bottom: 1.5rem;
   }
   /* s3 */
