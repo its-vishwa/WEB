@@ -309,6 +309,9 @@ footer {
   }
 }
 @media (max-width: 767px) {
+  header {
+    display: none;
+  }
   /* s1 */
   #pro-pic {
     width: 120px;
