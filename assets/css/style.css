@@ -20,7 +20,7 @@ body {
   background-size: cover;
 }
 #s1 {
-  height: 95vh;
+  height: 100vh;
 }
 
 .s1-nav-items {
@@ -33,18 +33,18 @@ button[class="navbar-toggler"] {
 }
 
 #s1-bio-text {
-  color: white;
+  color: #ddd;
   font-size: 1rem;
   font-family: "Ubuntu", sans-serif;
 }
 #s1-name {
   font-family: "Dancing Script", cursive;
-  color: #ff2600;
+  color: #fd7200;
   font-weight: bold;
   font-size: 1.1rem;
 }
 #s1-down-icon {
-  color: white;
+  color: #ddd;
 }
 /* scroll down animationa */
 .scroll-down {
@@ -59,8 +59,8 @@ button[class="navbar-toggler"] {
   text-shadow: 0;
   width: 13px;
   height: 13px;
-  border-bottom: 2px solid #ff2600;
-  border-right: 2px solid #ff2600;
+  border-bottom: 2px solid #ddd;
+  border-right: 2px solid #ddd;
   z-index: 9;
   left: 50%;
   -webkit-transform: translate(-50%, 0%) rotate(45deg);
@@ -113,11 +113,14 @@ button[class="navbar-toggler"] {
 }
 /* Section 02 */
 #s2 {
-  background-color: #0d1014;
+  background: linear-gradient(135deg, rgb(0, 0, 0), rgb(0, 0, 0));
+}
+.s2-divs {
+  background-color: rgb(5, 5, 5);
 }
 #s2-title {
   font-family: "Outfit", sans-serif;
-  color: #00b5ac;
+  color: #ffffff;
   font-size: 1.5rem;
 }
 .inst-name,
@@ -293,9 +296,17 @@ footer {
   }
 }
 @media (min-width: 768px) {
+  /* s1 */
   #pro-pic {
     width: 200px;
     height: 200px;
+  }
+  .s1-nav-items,
+  #s1-bio-text {
+    font-size: 1.3rem;
+  }
+  #s1-name {
+    font-size: 1.4rem;
   }
   /* s2 */
   .inst-logos {
@@ -311,6 +322,9 @@ footer {
 @media (max-width: 767px) {
   header {
     display: none;
+  }
+  #s1 {
+    height: 95vh;
   }
   /* s1 */
   #pro-pic {
