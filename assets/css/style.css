@@ -179,28 +179,40 @@ button[class="navbar-toggler"] {
 .pro-name-s4 {
   color: #78309f;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .pro-title-s4 {
   color: #8f8f8f;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 .pro-desc-s4 {
   color: #000;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 .btn-2-s4 {
-  margin-left: 15px;
+  margin-left: 7px;
   background-color: #78309f;
   color: #ddd;
+  font-size: 1rem;
 }
 .btn-2-s4:hover {
-  background-color: #a558cf;
+  background-color: transparent;
+  border-color: #a558cf;
+  color: #a558cf;
+}
+.btn-1-s4 {
+  margin-right: 7px;
+  border-color: #000;
+  color: #000;
+  font-size: 1rem;
+}
+.btn-1-s4:hover {
+  background-color: #000;
   color: #ddd;
 }
 #title-s4 {
   font-family: "Outfit", sans-serif;
-  color: #eee;
+  color: #ddd;
   font-size: 1.5rem;
 }
 /* s5 */
@@ -209,18 +221,18 @@ button[class="navbar-toggler"] {
 }
 #title-s5 {
   font-family: "Outfit", sans-serif;
-  color: #eee;
+  color: #ddd;
   font-size: 1.5rem;
 }
 #desc-s5 {
   font-family: "Ubuntu", sans-serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #ccc;
   text-align: justify;
 }
 #desc-s5 a {
   font-family: "Ubuntu", sans-serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #ccc;
   font-style: italic;
 }
@@ -293,8 +305,12 @@ footer {
 
 @media (max-width: 465px) {
   .btn-2-s4 {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 0px;
+  }
+  .btn-1-s4 {
+    margin-bottom: 5px;
+    margin-right: 0px;
   }
 }
 @media (min-width: 768px) {
@@ -360,13 +376,11 @@ footer {
     height: 50px;
   }
   #s2-title {
-    font-size: 1.1rem;
-    padding-bottom: 1.5rem;
+    font-size: 1.2rem;
   }
   /* s3 */
   #title-s3 {
-    padding-bottom: 1.5rem;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   #s3 table {
     font-size: 0.9rem;
@@ -377,9 +391,29 @@ footer {
     width: 200px;
     height: 200px;
   }
+  #title-s4 {
+    font-size: 1.2rem;
+  }
+  .pro-name-s4 {
+    font-size: 1.1rem;
+  }
+  .pro-title-s4 {
+    font-size: 0.75rem;
+  }
+  .pro-desc-s4,
+  .btn-2-s4,
+  .btn-1-s4 {
+    font-size: 0.9rem;
+  }
   /* s5 */
+  #title-s5 {
+    font-size: 1.2rem;
+  }
   #quote-s5,
   #desc-s5 {
+    font-size: 0.75rem;
+  }
+  #desc-s5 a {
     font-size: 0.75rem;
   }
 }
