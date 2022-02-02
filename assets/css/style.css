@@ -303,7 +303,7 @@ footer {
 }
 /* /////////////////////RESPONSIVE//////////////////// */
 
-@media (max-width: 381px) {
+@media (max-width: 400px) {
   .btn-2-s4 {
     margin-top: 5px;
     margin-left: 0px;
