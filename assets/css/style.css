@@ -149,6 +149,13 @@ button[class="navbar-toggler"] {
 #s3 table {
   font-size: 1rem;
 }
+#s3 table {
+  background-color: #000;
+  border-radius: 5px;
+}
+#s3 .strip-s3 {
+  background-color: #111;
+}
 #title-s3 {
   font-family: "Outfit", sans-serif;
   color: #000;
@@ -164,15 +171,7 @@ button[class="navbar-toggler"] {
 }
 /* s4 */
 #s4 {
-  background: linear-gradient(
-      90deg,
-      rgb(211, 211, 211),
-      rgba(255, 255, 255, 0.747)
-    ),
-    url("../images/bilge-tekin-GiATUqz4NYY-unsplash.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #000;
 }
 .pro-s4 {
   font-family: "Ubuntu", sans-serif;
@@ -201,7 +200,7 @@ button[class="navbar-toggler"] {
 }
 #title-s4 {
   font-family: "Outfit", sans-serif;
-  color: #555555;
+  color: #eee;
   font-size: 1.5rem;
 }
 /* s5 */
@@ -361,20 +360,18 @@ footer {
     height: 50px;
   }
   #s2-title {
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding-bottom: 1.5rem;
   }
   /* s3 */
   #title-s3 {
     padding-bottom: 1.5rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   #s3 table {
     font-size: 0.9rem;
   }
-  .table {
-    background-color: #000;
-  }
+
   /* s4 */
   #carouselExampleControls img {
     width: 200px;
