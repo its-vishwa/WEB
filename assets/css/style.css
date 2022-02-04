@@ -296,6 +296,38 @@ button[class="navbar-toggler"] {
   box-shadow: 0 0 0 0.1rem rgba(255, 255, 255, 0.507);
   border-color: rgb(255, 255, 255);
 }
+#status-s6 {
+  text-align: center;
+  background-color: #000000e3;
+  border-radius: 5px;
+  font-family: "Ubuntu", sans-serif;
+}
+#status-s6.success {
+  padding: 5px;
+  font-size: 0.8rem;
+  color: rgb(0, 255, 115);
+  animation: statues 4s ease forwards;
+}
+#status-s6.error {
+  padding: 5px;
+  font-size: 0.8rem;
+  color: rgb(255, 0, 0);
+  animation: statues 4s ease forwards;
+}
+@keyframes statues {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
 /* footer */
 footer {
   background-color: rgb(61, 1, 1);
