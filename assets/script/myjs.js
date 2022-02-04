@@ -1,3 +1,6 @@
+function avilable_soon() {
+  alert("The IOS version of this app is under constructions");
+}
 var TxtRotate = function (el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
